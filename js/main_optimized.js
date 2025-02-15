@@ -292,9 +292,9 @@
                     event.stopPropagation();
                     event.target.parentElement.classList.add("hideit");
 
-                    setTimeout(function(){
+                    requestAnimationFrame(function(){
                         box.style.display = "none";
-                    }, 20)
+                    })
                 }    
             });
 
