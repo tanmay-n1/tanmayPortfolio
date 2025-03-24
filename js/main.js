@@ -21,7 +21,7 @@
     .add({
         targets: '#loader',
         opacity: 0,
-        duration: 500,
+        duration: 400,
         begin: function(anim) {
             window.scrollTo(0, 0);
         }
